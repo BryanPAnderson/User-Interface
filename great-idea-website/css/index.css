@@ -64,65 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.navbar div {
-	width: 220px;
-	height: 220px;
+header {
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.navbar {
+	width: 70%;
+}
+
+.navbar a {
 	margin: 20px;
 	color: grey;
 	text-align: center;
-	padding-top: 40px;
-	box-sizing: border-box;
+	padding: 0 4%;
 	display: inline-block;
+	text-decoration: none;
 }
 
-
-.title {
-	width: 800x;
-	height: 950px;
-}
-
-section {
-	width: 400px;
-	height: 60px;
-	margin: 20px;
-	box sizing: border-box;
-	display: inline-block;
+a:hover  {
+	color: white;
+	background-color: lightgrey;
 }
 
 .pic{
-	margin-left: 900px;
-	width: 300px;
-	height: 300px;
+	width: 50%;
+	height: 50%;
+	margin-left: 1100px;
+}
+
+.title {
+	height: 50%;
+	width: 50%;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 20px;
+	margin-top: 250px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	margin-left: 400px;
+}
+.top-content div {
+	margin: 20px;
+	padding: 40px;
+	display: inline-block;
+	justify-content: space-evenly;
+}
+.top-content {
+	align-items: center;
+	justify-content: center;
+}
+
+.top-div1 {
+	width: 40%;
+	border: 1px solid black;
+	background-color: grey;
+}
+
+.top-div2 {
+	width: 40%;
+	border: 1px solid black;
+	background-color: grey;
+	padding: 20px;
+	margin: 20px;
 }
 
 .pic2 {
 	width: 100%;
-	height: 200p;
+	height: 200px;
 }
 
-.features {
-	display: inline-block;
-	box-sizing: border-box;
-
-}
-.about {
-	display: inline-block;
-	box-sizing: border-box;
-}
-
-.services {
-	display: inline-block;
-	box-sizing: border-box;
-
+.middle-img {
+	width: 100%;
+	height: 200px;
+	padding: 30px;
+	margin:30px;
+	border: 50px;
+	display: i
 }
 
-.product{
-	display: inline-block;
-	box-sizing: border-box;
+.bottom-content {
+	align-items: center;
+	justify-content: center;
 }
 
-.vision {
+.bottom-content div {
+	height: 50%;
+	margin: 20px;
+	padding: 40px;
 	display: inline-block;
-	box-sizing: border-box;
+	justify-content: space-around;
+}
 
+.bottom-div1 {
+	width: 20%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.bottom-div2 {
+	width: 20%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.bottom-div3 {
+	width: 20%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
 }
